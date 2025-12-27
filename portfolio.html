@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="sidebar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="portfolio.html" class="active">Portfolio</a></li>
+            <li><a href="stuff.html">Stuff</a></li>
+        </ul>
+    </nav>
+    <main>
+        <!-- Profile Section -->
+        <section class="profile">
+            <img src="images/profile.jpeg" alt="Profile" class="profile-pic">
+            <p>I'm SpongeBob SquarePants. I work at the Krusty Krab and I make fantastic Krabby Patties.</p>
+        </section>
+
+        <!-- Social Links -->
+        <section class="social">
+            <a href="https://www.linkedin.com/in/spongebob-squarepants-44b857281/" target="_blank">
+                <img src="https://content.linkedin.com/.../LI-Bug.svg.original.svg" alt="LinkedIn">
+            </a>
+            <!-- Add GitHub and Email icons similarly -->
+        </section>
+
+        <!-- Education, Courses, Experience, Projects, Skills, etc. -->
+        <!-- Example: Experience -->
+        <section class="experience">
+            <h2>Experience</h2>
+            <div class="job">
+                <h3>Cook at Krusty Krab</h3>
+                <img src="images/cook.jpg" alt="Cook">
+                <ul>
+                    <li>Worked on designing the Krabby Patty Recipe</li>
+                    <li>Increased Company Revenue by 200 dollars</li>
+                    <li>Made Mr. Krabs Proud</li>
+                </ul>
+            </div>
+            <!-- Repeat for other jobs -->
+        </section>
+
+        <!-- Skills with progress bars -->
+        <section class="skills">
+            <h2>Programming Skills</h2>
+            <div class="skill">
+                <span>Python 🐍</span>
+                <div class="skill-bar"><div class="progress" style="width:90%"></div></div>
+            </div>
+            <div class="skill">
+                <span>Java ☕</span>
+                <div class="skill-bar"><div class="progress" style="width:70%"></div></div>
+            </div>
+            <!-- etc. -->
+        </section>
+
+        <!-- Add other sections: Education, Courses table, Projects, Languages, Leadership, Activities -->
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
