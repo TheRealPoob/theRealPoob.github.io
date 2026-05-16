@@ -1,0 +1,26 @@
+# Ignore Obsidian application metadata and workspace settings
+.obsidian/
+
+# System files
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+Icon?
+$RECYCLE.BIN/
+
+# Editor settings
+.vscode/
+
+# Node/npm artifacts (if you add tooling later)
+node_modules/
+
+# Build output
+dist/
+build/
+
+# Temporary files
+*.log
+*.tmp
+*.bak
+*.swp
