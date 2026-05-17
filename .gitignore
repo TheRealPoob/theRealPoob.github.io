@@ -24,3 +24,6 @@ build/
 *.tmp
 *.bak
 *.swp
+
+# ignore
+docs/
